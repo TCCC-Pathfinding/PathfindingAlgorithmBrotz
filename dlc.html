@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>OpenLayers Template</title>
+    <style>
+      @import "node_modules/ol/ol.css";
+    </style>
+    <style>
+      html, body {
+        margin: 20px;
+        height: 100%;
+        width: 100%;
+        font-family: sans-serif;
+        color:white;
+        background-color: green;
+      }
+    </style>
+</head>
+<body>
+<p>* This form is for display purposes only and is not a real form *</p>
+<button onclick="window.location.href='./index.html';">Back to Main Page</button><br><br>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="card">Credit Card Type:</label><br>
+    <input type="text" id="type" name="type"><br><br>
+    <label for="lname">Credit Card Number:</label><br>
+    <input type="text" id="card" name="card"><br><br>
+    <label for="lname">Account Number:</label><br>
+    <input type="text" id="account" name="account"><br><br>
+    <label for="lname">Routing Number:</label><br>
+    <input type="text" id="routing" name="routing"><br><br>
+    <label for="lname">CVV:</label><br>
+    <input type="text" id="cvv" name="cv"><br>
+</form>
+<p>Billing Address: </p>
+<textarea></textarea>
+<p>Why do you wish to purchase the DLC?</p>
+<textarea>Explain why here...</textarea>
+<p> * Note the submit button does not work as the DLC does not exist * </p>
+<button>Submit Payment</button>
+</body>
+</html>
