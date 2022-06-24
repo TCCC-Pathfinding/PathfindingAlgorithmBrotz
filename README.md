@@ -1,5 +1,7 @@
 ## Pathfinding Algorithm
 
+Name: Riley Brotz
+
 ###Travelling Routes
 
 The findShortestPath(nodes, edges) method was made to create an array of copies of all the nodes to represent unvisited
